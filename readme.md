@@ -7,7 +7,9 @@ pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f ht
 cd external/DCNv2
 python setup.py build develop
 ### 测试demo程序文件
-./test.py  
+1. 下载模型文件  
+[”yolact_plus_resnet50_205_40000.pth“](https://pan.baidu.com/s/1eJZ7ICy_HC0gpS8-5reNoA?pwd=1234)  
+2. ./test.py：  
 读取["TK_attach.png"](TK_attach.png)  
 ![](TK_attach.png)  
 渲染后显示:  
